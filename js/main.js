@@ -1,6 +1,6 @@
 // Función para consultar mi pais
 function getAllRecordsByCountry() {
-    fetch('//34.229.60.146/php-intro-connection/getRecordsByCountry.php')
+    fetch('//98.81.113.109/php-intro-connection/getRecordsByCountry.php')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Error en la respuesta de la red: ' + response.status);
@@ -15,7 +15,7 @@ function getAllRecordsByCountry() {
 }
 // Función para consultar los continentes 
 function getAllRecordsByContinent() {
-    fetch('//34.229.60.146/php-intro-connection/getRecordsByContinent.php')
+    fetch('//98.81.113.109/php-intro-connection/getRecordsByContinent.php')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Error en la respuesta de la red: ' + response.status);
